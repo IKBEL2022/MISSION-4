@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+
+header,section,footer{
+    display: block;
+    background-color: bisque;
+}
+ /* ***************************************************header*********************************************************************** */
+ #logo{ 
+    float: left;
+ }
+
+nav{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    opacity: 0,9; 
+    color: black;
+    font-family: bold;
+    padding: 30px;       
+}
+
+ li{
+    font-size: 14px;
+    color:black;
+    font-style:bold;
+    display : inline;
+    padding : 18px 16px;   
+}
+
+ul{
+    float: right;
+    font-size: 14px;
+    word-spacing: 1px; 
+    letter-spacing: 0px ;
+}
+ 
+form{
+    float: right;  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* **************************************************************main *********************************************************** */
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style:bold ;
+    padding-top: 30px;
+    font-size: 2em;
+    text-shadow: 1px 3px 2px white;
+}
+
+table {
+    width:  450px;
+    height: 120px;
+    border: 1px solid black ;
+    display: block;
+    margin: 20px auto;
+    position: inherit;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    background-color: #f7bea9;
+}
+
+#my_photo{
+    text-align: center;
+}
+
+#challenge {
+    margin: 0 auto;
+    display: block;
+}
+
+p,h1,header,h3 {
+    background-color: bisque;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    letter-spacing:1px;
+    word-spacing: 1px;
+    font: size 20px;  
+ }
+
+/* ************************************************************footer **************************************************************** */
+
+footer{
+    background-color: bisque;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+h6{
+text-shadow: none;
+}
+
+input,textarea,button{
+    border:none;
+    width: 50%;
+    padding: 10px 50px;
+    margin: 1px 0;
+    font-size: 20px;
+    border-radius:8px ;
+}
+
+textarea{
+    height: 150px;
+}
+
+button{
+    font-size: 20px;
+    background-color:gainsboro;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: 0,3S ease-in-out;
+    background-color:#f7bea9;
+}
+
+#copyright {
+    width: 50%;
+    display: flex;
+    padding: 0 50%; 
+}
